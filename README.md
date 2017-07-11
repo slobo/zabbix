@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/laradji/zabbix.png?branch=master)](https://travis-ci.org/laradji/zabbix)
 
 # DESCRIPTION
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/laradji/zabbix?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 This cookbook install zabbix-agent and zabbix-server.
 
@@ -325,7 +326,7 @@ Default implementation of how to Fetch and handle the Zabbix source code.
 # CHANGELOG
 
 ### 0.8.0
-* This version is a big change with a lot of bugfix and change. Please be carefull if you are updated from previous version
+* This version is a big change with a lot of bugfix and change. Please be careful if you are updated from previous version
 
 ### 0.0.42
 * Adds Berkshelf/Vagrant 1.1 compatibility (andrewGarson)
@@ -401,7 +402,7 @@ Default implementation of how to Fetch and handle the Zabbix source code.
   * Configuration error about include_dir in zabbix_agentd.conf.erb
 
 ###	0.0.26
-  * zabbix agent and zabbix server don't want the same include_dir, be carefull if you use include_dir
+  * zabbix agent and zabbix server don't want the same include_dir, be careful if you use include_dir
   * noob error on zabbix::server
 
 ### 0.0.25
